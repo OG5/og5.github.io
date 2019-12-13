@@ -63,4 +63,5 @@ a:hover {
     height: 3px;
     overflow:hidden;
     background: linear-gradient(left,  #1e5799 0%, #f300ff 50%, #e0ff00 100%);
+    background: -webkit-gradient(left,  #1e5799 0%, #f300ff 50%, #e0ff00 100%);
  }
