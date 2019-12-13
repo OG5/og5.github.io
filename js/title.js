@@ -16,7 +16,7 @@ function loaded(){
 
 var x = 0;
 
-var titleText = [ "no", "name" ];
+var titleText = [ "SFSXSQPGSA","aGWADGZDPK","anWPAFTMNO","antEFAQFBI","antiWXHTAN","antisRSGIJ","antisoYLIS","antisocSAW","antisociOS","antisociaJ","antisocial","antisocial","antisocia","antisoci","antisoc","antiso","antis","anti","ant","an","a","D","SJ","KWP","WAPD","QXYKI","HCDSJM","XSOWASJD","DASJWSOWA","SAJDWASDIK" ];
 
 function loop(){
 

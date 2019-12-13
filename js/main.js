@@ -5,7 +5,7 @@ $(document).ready(function() {
             plink: 'https://steamcommunity.com/profiles/76561198451347760'
         },
         {
-            name: 'shaddix',
+            name: 'tom',
             plink: 'http://steamcommunity.com/profiles/76561198193064889'
         }
 		];
