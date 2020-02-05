@@ -1,45 +1,88 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-        <title>ａｎｔｉｓｏｚｉａｌ</title>
-		<link rel="icon" type="image/ico" href="">
-        <link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<meta name="description" content="Your friendly neighborhood antisocialists.">
-		<meta itemprop="name" content="ANTISOZIAL.TEAM">
-		<script src="js/title.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/marquee.js"></script>
-		<script src="js/main.js"></script>
-		<script type="text/javascript">
-			alert("Autoplay might not work, so don't come bitching at me.");
-		</script>
-    </head>
-    <body>
-	<body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;"></body>
-        <div id="center">
-		<div class="bar"></div>
-		<div class="animated flipInX">
-		<pre>                                         
-   _   ___ 
-  /_\ / __|
- / _ \\__ \
-/_/ \_\___/
-		</div>
-		<div class="animated flipInY">
-            <pre>antisocialists</pre>
-			<pre>[<div id="marquee"></div>]</pre>
-		</div>
-		<div class="bar"></div>
-        </div>
-		<video autoplay loop id="player">
-		<source src="videos/bg.mp4" type="video/mp4" />
-		<script>
-		var video = document.currentScript.parentElement;
-		video.volume = 0.1;
-		</script>
-		</video>
+    <title>antisozial.team</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="antisozial.team - what even is humanity">
+    <meta name="keywords" content="antisozial.team, antisozial, team">
+    <meta name="author" content="sukuizu">
+    <meta property="og:type" content="site">
+    <meta property="og:title" content="antisozial.team">
+    <meta property="og:description" content="antisozial.team - what even is humanity">
+    <meta property="og:url" content="https://antisozial.team/">
+    <meta property="og:image" content="assets/icons/as.png">
+    <meta itemprop="name" content="antisozial.team">
+    <meta itemprop="description" content="antisozial.team - what even is humanity">
+    <meta itemprop="image" content="assets/icons/as.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="assets/icons/as.jpg" type="image/x-icon">
 
-    </body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <table class="box">
+        <tbody>
+            <tr><td><span id="line1" style="white-space:pre;"></span></td></tr>
+            <tr><td><span id="line2" style="white-space:pre;"></span></td></tr>
+            <tr><td><span id="line3 space" style="white-space:pre;"> </span></td></tr>
+            <tr><td><span id="line4" style="white-space:pre;"></span></td></tr>
+        </tbody>
+        </table>
+    </div>
+
+    <div class="container" style="display: none;">
+        <h1 class="brand-header">
+            <a href="https://steamcommunity.com/groups/obnoxious_club" target="_BLANK">antisozial.team</a>
+        </h1>
+        
+        <p><span id="brand"></span></p>
+    </div>
+
+    <div class="marquee-container" style="display: none">
+        <pre>|<div id="marquee"></div>|</pre>
+    </div>
+
+    <div class="background" style="display: none;">
+        <div id="pattern"></div>
+
+        <audio id="audio" loop="">
+            <source src="0.mp4" type="audio/mp4">
+            <script>
+                var audio = document.getElementById("audio");
+
+                app.audioElement = audio;
+                app.audioElement.volume = 0;
+            </script>
+        </audio>
+
+        <video id="background" loop="">
+            <source src="0.mp4" type="video/mp4">
+            <script>
+                var video = document.getElementById("background");
+
+                app.videoElement = video;
+                app.videoElement.volume = 0;
+            </script>
+        </video>
+    </div>
+
+    <div class="top-right">
+        <i><a class="skip">skip intro</a></i>
+    </div>
+
+    <div class="footer">
+        <i><a href="https://discord.gg/aubDJVF" target="_BLANK">Discord server</a></i>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
+    <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
+    <script type="text/javascript" src="assets/javascript/analytics.js"></script>
+</body>
 </html>
