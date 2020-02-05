@@ -9,10 +9,10 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "TF2 homos", 
+        "nigga bullies", 
         "pro roblox players", 
-        "nigga bullies",
-        "enjoy your stay"
+        "tf2 spinners",
+        "back to where it all started"
     ];
 
     this.titleChanger = function (text, delay) {
