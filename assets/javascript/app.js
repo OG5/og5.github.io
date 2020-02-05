@@ -17,7 +17,7 @@ var _app = function () {
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['sukuizu', 'shaddix', 'antisozial.team', '',];
+            ['sukuizu', 'shaddix', 'antisozial.team'];
         delay = delay || 2000;
 
         var counter = 0;
