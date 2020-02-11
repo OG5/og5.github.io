@@ -58,7 +58,7 @@
         </audio>
 
         <video id="background" loop="">
-            <source src="https://antisozial.team/assets/others/1.mp4" type="video/mp4">
+            <source src="<?php echo rand(0, 1); ?>.mp4" type="audio/mp4">
             <script>
                 var video = document.getElementById("background");
 
