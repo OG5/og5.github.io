@@ -18,7 +18,7 @@ var _app = function () {
     this.titleChanger = function (text, delay) {
         text = text ||
             ['a', 'an', 'ant', 'anti', 'antis', 'antiso', 'antisoz', 'antisozi', 'antisozia', 'antisozial', 'antisozial.', 'antisozial.t', 'antisozial.te', 'antisozial.tea', 'antisozial.team', 'ntisozial.team', 'tisozial.team', 'isozial.team', 'sozial.team', 'ozial.team', 'zial.team', 'ial.team', 'al.team', 'l.team', '.team', 'team', 'eam', 'am', 'm', '⠀⠀'];
-        delay = delay || 2000;
+        delay = delay || 800;
 
         var counter = 0;
 
