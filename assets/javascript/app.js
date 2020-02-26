@@ -9,9 +9,9 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "nigga bullies", 
-        "pro roblox players", 
-        "tf2 spinners",
+        "terrorists", 
+        "gods", 
+        "bullies",
         "back to where it all started"
     ];
 
