@@ -9,10 +9,11 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "terrorists", 
-        "gods", 
-        "bullies",
-        "back to where it all started"
+        "discord terrorists", 
+        "unholy gods", 
+        "Every sinner has a future",
+        "Every saint has a past",
+        "It is us who are strong"
     ];
 
     this.titleChanger = function (text, delay) {
