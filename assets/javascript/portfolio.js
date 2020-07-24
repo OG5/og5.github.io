@@ -14,7 +14,7 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'sukuizu',
+                name: 'kumi',
                 link: '76561199003625533'
             },
                 
@@ -24,18 +24,8 @@
             },
             
             {
-                name: 'hl',
-                link: '76561198132258674'
-            },
-            
-            {
-                name: 'hiiro',
-                link: '76561198022803515'
-            },
-            
-            {
-                name: 'ryse',
-                link: '76561198428950616'
+                name: 'alto',
+                link: '76561198886006114'
             }
         ];
          
