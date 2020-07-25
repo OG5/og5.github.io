@@ -11,9 +11,9 @@ var _app = function () {
     this.brandDescription = [
         "discord terrorists", 
         "unholy gods", 
-        "Every sinner has a future",
-        "Every saint has a past",
-        "It is us who are strong"
+        "every sinner has a future",
+        "every saint has a past",
+        "it is us who are strong"
     ];
 
     this.titleChanger = function (text, delay) {
