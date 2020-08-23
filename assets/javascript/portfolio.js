@@ -14,7 +14,7 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'kumi',
+                name: 'moon',
                 link: '76561199003625533'
             },
                 
