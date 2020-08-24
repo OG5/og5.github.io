@@ -157,14 +157,14 @@
                 var usernames = ["user", "dude"];
 
                 writeLine(["access granted, <span style='font-size: 14px; color: #40a3ff;'>[success]</span>", "this u? <i style='color: #40a3ff'>" +  ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)]) 
-                    + "</i>, also ur from " + ((data.country_name) ? data.country_name : 'your country') + "lol"], 30, 500, function () {
+                    + "</i>, also ur from <span style='font-size: 14px; color: #40a3ff;'>" + ((data.country_name) ? data.country_name : 'your country') + "</span> lol"], 30, 500, function () {
 
                     if (app.skippedIntro)
                         return;
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #40a3ff'>antisozial $</i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #40a3ff'>antisozial $</i> run app.js"], 120, 500, function () {
 
                         timeouts.push(setTimeout(function () {
 
