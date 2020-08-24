@@ -138,7 +138,7 @@
             var typed = new Typed("#line" + ((app.id !== 2) ? ++app.id : app.id += 2), 
             {
                 strings: text,
-                typeSpeed: speed,
+                typeSpeed: 50,
                 onComplete: callback
             });
         }, timeout);
@@ -147,7 +147,7 @@
     (function () {
         $.getJSON('https://freegeoip.app/json/', function (data) {
 
-            writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[unknown]</span>..."], 30, function () {
+            writeLine(["bruh another <span style='font-size: 14px; color: #40a3ff;'>nigga</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>this nigga</span>"], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
@@ -156,15 +156,15 @@
 
                 var usernames = ["user", "dude"];
 
-                writeLine(["Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>", "Welcome back, <i style='color: #0f0'>" +  ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)]) 
-                    + "</i>! By the way, nice to see someone from " + ((data.country_name) ? data.country_name : 'your country') + " here!"], 30, 500, function () {
+                writeLine(["access granted, <span style='font-size: 14px; color: #40a3ff;'>[success]</span>", "this u? <i style='color: #40a3ff'>" +  ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)]) 
+                    + "</i>, also ur from " + ((data.country_name) ? data.country_name : 'your country') + "lol"], 30, 500, function () {
 
                     if (app.skippedIntro)
                         return;
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #F62459'>pasterworld $$$</i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #40a3ff'>antisozial $</i>"], 120, 500, function () {
 
                         timeouts.push(setTimeout(function () {
 
@@ -224,7 +224,7 @@
                 var typed = new Typed("#brand", 
                 {
                     strings: app.brandDescription,
-                    typeSpeed: 40,
+                    typeSpeed: 50,
                     onComplete: function () {
                         clearCursor()
                     }

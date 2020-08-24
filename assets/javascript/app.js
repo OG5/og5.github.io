@@ -9,10 +9,13 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "discord terrorists", 
-        "unholy gods", 
-        "every sinner has a future",
-        "every saint has a past",
+        "moon the unholy god",
+        "alto the retarded fag",
+        "shaddix the",
+        "shaddix the",
+        "shaddix the uhh..",
+        "shaddix the uhh..",
+        "shaddix the yes",
         "it is us who are strong"
     ];
 
