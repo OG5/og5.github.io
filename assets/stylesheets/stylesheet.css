@@ -164,3 +164,13 @@ pre {
 ::-webkit-scrollbar {
 	width: 0;
 }
+
+.leaks {
+	transition: .3s;
+	letter-spacing: 0vmin;
+}
+
+.leaks:hover {
+	transition: .3s;
+	letter-spacing: .3vmin;
+}

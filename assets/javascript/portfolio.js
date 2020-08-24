@@ -221,6 +221,10 @@
             }, 200);
 
             setTimeout(function () {
+                $('.leaks').animateCss(app.effects[ Math.floor(Math.random() * app.effects.length) ]);
+            }, 200);
+
+            setTimeout(function () {
                 var typed = new Typed("#brand", 
                 {
                     strings: app.brandDescription,
