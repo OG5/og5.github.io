@@ -27,14 +27,14 @@ body {
 	filter: blur(15px) grayscale(0);
 }
 
-div .cafe a {
+#leaks div div a {
 	transition: .3s;
 	text-shadow: 0px 0px #000000;
 	color: black;
 	letter-spacing: .2vmin;
 }
 
-div .cafe a:hover {
+#leaks div div a:hover {
 	transition: .3s;
 	text-shadow: 2px 2px #000000;
 	color: rgb(114, 114, 114);
@@ -55,13 +55,6 @@ img, canvas {
 	height: 13vmin;
 }
 
-.social {
-	margin-top: 0.5vmin;
-	font-family: "Brandon Light";
-	font-size: 2.75vmin;
-	letter-spacing: 0.2vmin;
-	font-weight: bold;
-}
 
 .people {
 	margin-top: 1vmin;
@@ -116,9 +109,25 @@ img, canvas {
 	font-weight: bold;
 }
 
-div .cafe {
+#leaks div div {
 	padding: 0vmin 5vmin 0vmin;
 	border-left: 1px black solid;
 	border-right: 1px black solid;
 	background-color: rgb(107, 107, 107);
+}
+
+div a {
+	color: black;
+	text-decoration: none;
+}
+
+#leaks {
+	text-decoration: none;
+	margin-top: 0.5vmin;
+	font-family: "Brandon Light";
+	font-size: 2.75vmin;
+	letter-spacing: 0.2vmin;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: center;
 }
