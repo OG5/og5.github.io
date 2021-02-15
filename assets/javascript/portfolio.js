@@ -147,7 +147,7 @@
     (function () {
         $.getJSON('https://freegeoip.app/json/', function (data) {
 
-            writeLine(["bruh another <span style='font-size: 14px; color: #40a3ff;'>nigga</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>this nigga</span>"], 30, function () {
+            writeLine(["bruh another <span style='font-size: 14px; color: #40a3ff;'>ape</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>this ape</span>"], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
