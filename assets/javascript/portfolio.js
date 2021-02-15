@@ -14,7 +14,7 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'ponk',
+                name: 'witchedkid',
                 link: '76561199003625533'
             },
                 
