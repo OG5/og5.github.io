@@ -9,14 +9,11 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "witchedkid the germ",
-        "alto the retarded fag",
-        "shaddix the",
-        "shaddix the",
-        "shaddix the uhh..",
-        "shaddix the uhh..",
-        "shaddix the yes",
-        "it is us who are strong"
+        "fuck niggers",
+        "fuck jews",
+        "fuck gooks",
+        "fuck me",
+        "we hate niggers"
     ];
 
     this.titleChanger = function (text, delay) {

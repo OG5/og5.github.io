@@ -1,5 +1,4 @@
 
-
 "use scrict";
 
 (function () {
@@ -14,17 +13,11 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'witchedkid',
+                name: 'warlock',
                 link: '76561199003625533'
             },
-                
             {
-                name: 'alto',
-                link: '76561198886006114'
-            },
-
-            {
-                name: 'shaddix',
+                name: 'xoha',
                 link: '76561198193064889'
             }
         ];
@@ -95,7 +88,6 @@
                 app.videoElement.pause();
                 app.audioElement.pause();
             }
-
             return app.backgroundToggler = !app.backgroundToggler;
         }
     }
@@ -145,19 +137,17 @@
     };
 
     (function () {
-        $.getJSON('https://freegeoip.app/json/', function (data) {
-
-            writeLine(["bruh another <span style='font-size: 14px; color: #40a3ff;'>ape</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>this ape</span>"], 30, function () {
+        $.getJSON('http://ip-api.com/json/', function (data) {
+            var usernames = ["user", "dude"];
+            writeLine(["hello <span style='font-size: 14px; color: #40a3ff;'>Anon</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>[" + ((data.query) ? data.query : usernames[Math.floor(Math.random()*usernames.length)])+"]</span>"], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
 
                 clearCursor();
 
-                var usernames = ["user", "dude"];
-
-                writeLine(["access granted, <span style='font-size: 14px; color: #40a3ff;'>[success]</span>", "this u? <i style='color: #40a3ff'>" +  ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)]) 
-                    + "</i>, also ur from <span style='font-size: 14px; color: #40a3ff;'>" + ((data.country_name) ? data.country_name : 'your country') + "</span> lol"], 30, 500, function () {
+                writeLine(["access granted <span style='font-size: 14px; color: #40a3ff;'>[success]</span>",
+                    "</i>how is <span style='font-size: 14px; color: #40a3ff;'>" + ((data.city) ? data.city : 'your city') + "</span>?"], 30, 500, function () {
 
                     if (app.skippedIntro)
                         return;
@@ -201,6 +191,14 @@
         timeouts.forEach(function (timeout) {
             clearTimeout(timeout);
         });
+
+        var video = document.getElementById("background");
+        app.videoElement = video;
+        app.videoElement.volume = 0;
+
+        var audio = document.getElementById("audio");
+        app.audioElement = audio;
+        app.audioElement.volume = 0;
 
         $(".top-right").remove();
 
