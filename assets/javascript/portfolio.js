@@ -137,15 +137,15 @@
     };
 
     (function () {
-        $.getJSON('http://ip-api.com/json/', function (data) {
+        $.getJSON('https://ipapi.co/json', function (data) {
             var usernames = ["user", "dude"];
-            writeLine(["hello <span style='font-size: 14px; color: #40a3ff;'>Anon</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>[" + ((data.query) ? data.query : usernames[Math.floor(Math.random()*usernames.length)])+"]</span>"], 30, function () {
+            writeLine(["hello <span style='font-size: 14px; color: #40a3ff;'>Anon</span>...", "granting access to <span style='font-size: 14px; color: #40a3ff;'>[" + ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)])+"]</span>"], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
 
                 clearCursor();
-
+                
                 writeLine(["access granted <span style='font-size: 14px; color: #40a3ff;'>[success]</span>",
                     "</i>how is <span style='font-size: 14px; color: #40a3ff;'>" + ((data.city) ? data.city : 'your city') + "</span>?"], 30, 500, function () {
 
