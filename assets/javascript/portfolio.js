@@ -41,7 +41,7 @@
         }
 
         if (window.mobileAndTabletCheck()) {
-            $("#background").replaceWith('<div id="background" style="background-image: url(https://antisozial/assets/images/mobile-background.jpg);"></div>');
+            $("#background").replaceWith('<div id="background" style="background-image: url(https://og5.github.io/assets/images/mobile-background.jpg);"></div>');
 
             app.shouldIgnoreVideo = true;
         } 
