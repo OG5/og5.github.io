@@ -154,21 +154,14 @@
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #40a3ff'>antisozial $</i> run app.js"], 120, 500, function () {
+                    
 
+                    writeLine(["<i style='color: #40a3ff'>antisozial $</i> <i><a id='enterButton'>enter</a></i>"], 120, 500, function () {
                         timeouts.push(setTimeout(function () {
-
                             if (app.skippedIntro)
                                 return;
-
                             clearCursor();
-
-                            setTimeout(function () {
-
-                                skipIntro();
-
-                            }, 500);
-
+                            document.getElementById("enterButton").onclick = function() {skipIntro()};
                         }, 1000));
 
                     });
