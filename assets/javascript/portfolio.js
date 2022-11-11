@@ -41,7 +41,7 @@
         for (var i in links) {
             var link = links[i];
 
-            $('#marquee').append('<a href="https://steamcommunity.com/profiles/' + link.link + '" target="_BLANK">' + link.name + '</a>');
+            $('#marquee').append('<a href="https://www.roblox.com/users/' + link.link + '/profile" target="_BLANK">' + link.name + '</a>');
 
             link = $('#marquee').children('a').last();
                 
