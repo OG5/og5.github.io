@@ -13,12 +13,28 @@
     $(document).ready(function () {
         var links = [
             {
-                name: 'warlock',
-                link: '76561199003625533'
+                name: 'jef',
+                link: '1353793031'
             },
             {
-                name: 'xoha',
-                link: '76561198193064889'
+                name: 'mika',
+                link: '2412014739'
+            },
+            {
+                name: 'wumpus',
+                link: '2366880667'
+            },
+            {
+                name: 'zxro',
+                link: '145099751'
+            },
+            {
+                name: 'czo',
+                link: '2044724114'
+            },
+            {
+                name: 'warlock',
+                link: '173528908'
             }
         ];
          
@@ -199,13 +215,6 @@
             
             $("#main").remove();
 
-            $('#marquee').marquee({
-                duration: 15000,
-                gap: 420,
-                delayBeforeStart: 1000,
-                direction: 'left',
-                duplicated: true
-            });
 
             setTimeout(function () {
                 $('.brand-header').animateCss(app.effects[ Math.floor(Math.random() * app.effects.length) ]);

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>antisozial.team</title>
+      <title>iku.lol</title>
       <meta charset="UTF-8">
-      <meta name="description" content="antisozial.team - it is us who are strong">
-      <meta name="keywords" content="antisozial.team, antisozial, team">
+      <meta name="description" content="iku.lol - it is us who are strong">
+      <meta name="keywords" content="iku.lol, iku, team">
       <meta name="author" content="kumi">
       <meta property="og:type" content="site">
-      <meta property="og:title" content="antisozial.team">
-      <meta property="og:description" content="antisozial.team - it is us who are strong">
+      <meta property="og:title" content="iku.lol">
+      <meta property="og:description" content="iku.lol - it is us who are strong">
       <meta property="og:url" content="./">
       <meta property="og:image" content="./assets/icons/as.png">
-      <meta itemprop="name" content="antisozial.team">
-      <meta itemprop="description" content="antisozial.team - it is us who are strong">
+      <meta itemprop="name" content="iku.lol">
+      <meta itemprop="description" content="iku.lol - it is us who are strong">
       <meta itemprop="image" content="./assets/icons/as.png">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <link rel="shortcut icon" href="./assets/icons/as.jpg" type="image/x-icon">
@@ -39,16 +39,20 @@
       </div>
       <div class="container" style="display: none;">
          <h1 class="brand-header">
-            <a href="./" target="_BLANK">antisozial.team</a><br>
+            <span href="./" target="_BLANK">iku.lol</span>
          </h1>
-         <h3 class="leaks">
-            <a href="./" target="_BLANK">/leaks/</a><br><br>
+         <h3 class="brand-header">
+            <a class="discord" href="./" target="discord.gg/iku">discord</a>
          </h3>
+         <br><br>
+
          <p><span id="brand"></span></p>
       </div>
+
       <div class="marquee-container" style="display: none">
-         <pre>|<div id="marquee"></div>|</pre>
+         <pre>|<marquee width="400px" behavior="scroll" direction="right" id="marquee"></marquee>|</pre>
       </div>
+      
       <div class="background" style="display: none;">
          <div id="pattern"></div>
          <audio id="audio" loop="">
@@ -60,19 +64,31 @@
             </script>
          </audio>
          <video id="background" loop="">
-            <source src="./assets/others/lildgeno.mp4" type="audio/mp4">
+            <source type="audio/mp4">
             <script>
                var video = document.getElementById("background");
                app.videoElement = video;
                app.videoElement.volume = 0;
             </script>
          </video>
+         <script>
+            var myvid = document.getElementById('background');
+            var audio = document.getElementById('audio');
+            var myvids = [
+              "./assets/videos/video2.mp4", 
+              "./assets/videos/video2.mp4", 
+            ];
+            var activeVideo = 0;
+            activeVideo = Math.floor(Math.random() * myvids.length);
+            myvid.src = myvids[activeVideo]; 
+            audio.src = myvids[activeVideo];
+         </script>
       </div>
       <div class="top-right">
          <i><a class="skip">enter</a></i>
       </div>
       <div class="footer">
-         <i><a href="https://discord.com/" target="_BLANK">(No Link)</a></i>
+         <i><a href="https://discord.gg/iku" target="_BLANK">Discord</a></i>
       </div>
       <script>
          console.log("rape")

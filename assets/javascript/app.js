@@ -9,11 +9,10 @@ var _app = function () {
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "fuck niggers",
-        "fuck jews",
-        "fuck gooks",
-        "fuck me",
-        "we hate niggers"
+        "made by a retard",
+        "made for retards",
+        "made with retardation",
+        "simply the best"
     ];
 
     this.titleChanger = function (text, delay) {

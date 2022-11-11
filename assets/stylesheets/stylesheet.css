@@ -92,7 +92,6 @@ pre {
 }
 
 #marquee {
-	width: 420px;
 	overflow: hidden;
 	display: inline-block;
 	margin-bottom: -4.5px;
@@ -115,7 +114,7 @@ pre {
 }
 
 #pattern {
-	background: transparent url("../others/dot.png") repeat 0 0;
+	background: transparent url("./others/dot.png") repeat 0 0;
 	top: 0;
 	left: 0;
 	margin: 0;
@@ -165,12 +164,16 @@ pre {
 	width: 0;
 }
 
-.leaks {
+.discord {
 	transition: .3s;
 	letter-spacing: 0vmin;
+	text-align:center;
+	color: #e4e3e3;
+	text-shadow: 0 0 #5865F2;
 }
 
-.leaks:hover {
-	transition: .3s;
-	letter-spacing: .3vmin;
+.discord:hover {
+	transition: 0.3s;
+	letter-spacing: 0.3vmin;
+	text-shadow: 2px 2px 3px #5865F2;
 }
